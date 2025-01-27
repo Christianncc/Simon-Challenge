@@ -1,0 +1,123 @@
+
+.background-red {
+    background-color: red;
+}
+
+body {
+    background-color: rgb(15, 15, 66);
+    font-family: 'Press Start 2P', cursive;
+    color: white;
+    text-align: center;
+}
+
+.Text-css {
+    text-align: center;
+    font-size: 50px;
+    position: relative;
+    top: 40px;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 300px;
+    gap: 10px;
+    position: relative;
+    top: 120px;
+}
+.Green{
+    border-radius: 20%;
+    background-color: green;
+    border: black solid 10px;
+    width: 300px;
+    height: 300px;
+    justify-self: end;
+}
+.White{  
+    border-radius: 20%;
+    background-color: white;
+    border: black solid 10px;
+    width: 300px;
+    height: 300px;
+}
+.Red{ 
+    border-radius: 20%;
+    background-color: red;
+    border: black solid 10px;
+    width: 300px;
+    height: 300px;
+    justify-self: end;
+}
+.Blue{
+    border-radius: 20%;
+    background-color: blueviolet;
+    border: black solid 10px;
+    width: 300px;
+    height: 300px;
+}
+.Greeny {
+    box-shadow: 1px 1px 4px 7px rgb(255, 255, 255);
+}
+.Whitey {
+    box-shadow: 1px 1px 4px 7px rgba(255, 255, 255, 0.993);
+}
+.Redy {
+    box-shadow: 1px 1px 4px 7px rgba(255, 255, 255, 0.993);
+}
+.Bluey {
+    box-shadow: 1px 1px 4px 7px rgba(255, 255, 255, 0.993);
+}
+
+@media (max-width: 1300px) {
+    .Text-css {
+        line-height: 1.5;
+        margin-left: 30px;
+        margin-right: 30px;
+        font-size: 40px;
+    }
+    .Green{ 
+        width: 200px;
+        height: 200px;
+   
+    }
+    .White{ 
+        width: 200px;
+        height: 200px;
+    }
+    .Red{ 
+        width: 200px;
+        height: 200px;
+    }
+    .Blue{
+        width: 200px;
+        height: 200px;
+    }
+}
+
+@media (max-width: 500px) {
+    .Text-css {
+        line-height: 1.5;
+        margin-left: 30px;
+        margin-right: 30px;
+        font-size: 30px;
+    }
+    .Green{ 
+        width: 150px;
+        height: 150px;
+   
+    }
+    .White{ 
+        width: 150px;
+        height: 150px;
+    }
+    .Red{ 
+        width: 150px;
+        height: 150px;
+    }
+    .Blue{
+        width: 150px;
+        height: 150px;
+    }
+}
+
+
